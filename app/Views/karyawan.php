@@ -11,14 +11,12 @@
         <thead>
             <tr>
                 <th>Nama</th>
-                <th>NIK</th>
             </tr>
         </thead>
         <tbody>
         <?php foreach($karyawan as $row):?>
             <tr>
                 <td><?= $row['nama'];?></td>
-                <td><?= $row['nik'];?></td>
             </tr>
         <?php endforeach;?>
         </tbody>
